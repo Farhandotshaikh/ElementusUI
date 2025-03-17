@@ -1,8 +1,4 @@
-# React + Vite
+### **Elementus UI **  
+Elementus UI offers a **comprehensive collection of pre-designed, responsive components** to accelerate your web development process. These components are built with flexibility, accessibility, and modern design in mind.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+All components are built to work seamlessly with **Elementus utility classes**, ensuring easy customization and fast implementation. 🚀
