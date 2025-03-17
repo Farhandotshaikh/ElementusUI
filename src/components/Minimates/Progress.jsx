@@ -1,4 +1,4 @@
-
+import progress from '../../assets/Progress.png'
 
 export const Progress = ({ onCardClick, title, description, image }) => {
     const Progress = [
@@ -172,7 +172,7 @@ export const Progress = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={progress}
               alt={title}
               className="Object-cover w-full h-full"
             />

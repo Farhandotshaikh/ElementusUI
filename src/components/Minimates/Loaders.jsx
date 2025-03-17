@@ -1,4 +1,4 @@
-
+import loader from '../../assets/Loaders.png'
 
 export const Loaders = ({ onCardClick, title, description, image }) => {
     const Loaders = [
@@ -142,7 +142,7 @@ export const Loaders = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={loader}
               alt={title}
               className="Object-cover w-full h-full"
             />

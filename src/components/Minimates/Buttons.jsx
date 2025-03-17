@@ -1,4 +1,4 @@
-
+import button from "../../assets/Button.png";
 export const Button = ({ onCardClick, title, description, image }) => {
   const buttons = [
     {
@@ -122,7 +122,7 @@ export const Button = ({ onCardClick, title, description, image }) => {
       >
         <div className="absolute inset-0">
           <img
-            src={image}
+            src={button}
             alt={title}
             className="Object-cover w-full h-full"
           />

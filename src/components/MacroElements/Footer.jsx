@@ -1,4 +1,4 @@
-
+import footer from '../../assets/Footer.png';
 
 export const Footer = ({ onCardClick, title, description, image }) => {
     const Footer = [
@@ -157,7 +157,7 @@ export const Footer = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={footer}
               alt={title}
               className="Object-cover h-full w-full"
             />

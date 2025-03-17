@@ -1,4 +1,4 @@
-
+import pagination from '../../assets/Pagination.png';
 
 export const Pagination = ({ onCardClick, title, description, image }) => {
     const Pagination = [
@@ -153,7 +153,7 @@ export const Pagination = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={pagination}
               alt={title}
               className="Object-cover w-full h-full"
             />

@@ -1,4 +1,4 @@
-
+import logo from '../assets/logo1.png'
 
 export const FTR = () => {
   return (
@@ -6,18 +6,18 @@ export const FTR = () => {
     <div class="container px-6 py-8 mx-auto">
         <div class="flex flex-col items-center text-center">
             <a href="#">
-                <img class="w-8 h-10 md:w-12 md:h-16" src="./src/assets/logo1.png" alt="Elementus Logo" />
+                <img class="w-8 h-10 md:w-12 md:h-16" src={logo} alt="Elementus Logo" />
             </a>
             <div class="flex flex-wrap justify-center mt-6 -mx-4">
-                <a href="#" class="mx-4 text-lg transition-colors duration-300 text-gray-300 hover:text-black" aria-label="Reddit"> Docs </a>
-                <a href="#" class="mx-4 text-lg transition-colors duration-300 text-gray-300 hover:text-black" aria-label="Reddit"> Blog </a>                
+                <a href="https://elementus.netlify.app/Docs" class="mx-4 text-lg transition-colors duration-300 text-gray-300 hover:text-black" aria-label="Reddit"> Docs </a>
+                <a href="https://elementus.netlify.app/Blog" class="mx-4 text-lg transition-colors duration-300 text-gray-300 hover:text-black" aria-label="Reddit"> Blog </a>                
             </div>
         </div>
         <hr class="my-5 border-gray-200 md:my-8" />
         <div class="flex flex-col items-center sm:flex-row sm:justify-between">
             <p class="text-lg text-gray-300">© Copyright 2025. All Rights Reserved.</p>
             <div class="flex -mx-2">
-                <a href="https://github.com/Farhandotshaikh/ElementusUI" class="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-400" aria-label="Github">
+                <a href="https://github.com/Farhandotshaikh/ElementusUI" target="_blank" class="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-400" aria-label="Github">
                     <svg class="w-10 h-10 my-2 fill-black" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path

@@ -1,4 +1,4 @@
-
+import alert from '../../assets/Alerts.png'
 
 export const Alerts = ({ onCardClick, title, description, image }) => {
     const Alerts = [
@@ -136,7 +136,7 @@ export const Alerts = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={alert}
               alt={title}
               className="Object-cover w-full h-full"
             />

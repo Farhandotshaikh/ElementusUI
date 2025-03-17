@@ -1,4 +1,4 @@
-
+import input from '../../assets/Inputs.png';
 export const Inputs = ({ onCardClick, title, description, image }) => {
     const Inputs = [
       {
@@ -133,7 +133,7 @@ export const Inputs = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={input}
               alt={title}
               className="Object-cover w-full h-full"
             />

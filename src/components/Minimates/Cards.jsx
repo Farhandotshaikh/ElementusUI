@@ -1,4 +1,4 @@
-
+import card from "../../assets/Card.png";
 
 export const Card = ({ onCardClick, title, description, image }) => {
   const cards = [
@@ -145,7 +145,7 @@ export const Card = ({ onCardClick, title, description, image }) => {
       >
         <div className="absolute inset-0">
           <img
-            src={image}
+            src={card}
             alt={title}
             className="Object-cover w-full h-full"
           />

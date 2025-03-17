@@ -1,4 +1,4 @@
-
+import header from '../../assets/Header.png'
 export const Header = ({ onCardClick, title, description, image }) => {
     const Header = [
       {
@@ -108,7 +108,7 @@ export const Header = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={header}
               alt={title}
               className="Object-cover w-full h-full"
             />

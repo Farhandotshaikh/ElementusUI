@@ -1,4 +1,4 @@
-
+import blog from "../../assets/Blog.png";
 export const Blog = ({ onCardClick, title, description, image }) => {
     const Blog = [
       {
@@ -95,7 +95,7 @@ export const Blog = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={blog}
               alt={title}
               className="Object-cover w-full h-full"
             />

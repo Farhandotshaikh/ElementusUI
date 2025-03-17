@@ -1,4 +1,4 @@
-
+import stats from '../../assets/Stats.png'
 export const Stats = ({ onCardClick, title, description, image }) => {
     const Stats = [
       {
@@ -166,7 +166,7 @@ export const Stats = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={stats}
               alt={title}
               className="Object-cover w-full h-full"
             />

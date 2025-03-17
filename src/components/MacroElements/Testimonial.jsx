@@ -1,4 +1,4 @@
-
+import testimonial from "../../assets/Testimonial.png";
 export const Testimonial = ({ onCardClick, title, description, image }) => {
     const Testimonials = [
       {
@@ -168,7 +168,7 @@ export const Testimonial = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={testimonial}
               alt={title}
               className="Object-cover w-full h-full"
             />

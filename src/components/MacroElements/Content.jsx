@@ -1,4 +1,4 @@
-
+import content from '../../assets/Content.png'
 export const Content = ({ onCardClick, title, description, image }) => {
     const Content = [
       {
@@ -129,7 +129,7 @@ export const Content = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={content}
               alt={title}
               className="Object-cover w-full h-full"
             />

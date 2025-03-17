@@ -1,4 +1,4 @@
-
+import portfolio from "../../assets/Portfolio.png";
 export const Portfolio = ({ onCardClick, title, description, image }) => {
     const Portfolio = [
       {
@@ -137,7 +137,7 @@ export const Portfolio = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={portfolio}
               alt={title}
               className="Object-cover w-full h-full"
             />

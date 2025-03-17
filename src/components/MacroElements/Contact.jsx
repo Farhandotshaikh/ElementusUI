@@ -1,4 +1,4 @@
-
+import contact from '../../assets/Contact.png'
 export const Contacts = ({ onCardClick, title, description, image }) => {
     const Contacts = [
       {
@@ -137,7 +137,7 @@ export const Contacts = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={contact}
               alt={title}
               className="Object-cover w-full h-full"
             />

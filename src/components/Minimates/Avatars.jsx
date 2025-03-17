@@ -1,4 +1,4 @@
-
+import avatar from '../../assets/Avatars.png';
 
 export const Avatars = ({ onCardClick, title, description, image }) => {
     const Avatars = [
@@ -108,7 +108,7 @@ export const Avatars = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={avatar}
               alt={title}
               className="Object-cover w-full h-full"
             />

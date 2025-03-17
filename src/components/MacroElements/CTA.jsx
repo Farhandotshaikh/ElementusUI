@@ -1,4 +1,4 @@
-
+import cta from '../../assets/CTA.png';
 export const CTA = ({ onCardClick, title, description, image }) => {
   const CTA = [
     {
@@ -179,7 +179,7 @@ export const CTA = ({ onCardClick, title, description, image }) => {
       >
         <div className="absolute inset-0">
           <img
-            src={image}
+            src={cta}
             alt={title}
             className="Object-cover w-full h-full"
           />

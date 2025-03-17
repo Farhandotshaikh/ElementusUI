@@ -4,6 +4,8 @@ import { CodePreview } from './components/CodePreview.jsx'
 import { ComponentSection } from './components/ComponentSection.jsx'
 import { FTR } from './components/FTR.jsx'
 
+import logo from './assets/logo1.png'
+
 const CardDetail = ({ item, onBack }) => {
   const [activeViews, setActiveViews] = useState({})
 
@@ -121,7 +123,7 @@ export default function App() {
           <div className="flex justify-center items-center h-16 md:h-20">
             <div className="flex items-center gap-2">
               <img 
-                src="./src/assets/logo1.png"
+                src={logo}
                 alt="Elementus Logo"
                 className="w-8 h-10 md:w-10 md:h-14"
               />

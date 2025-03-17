@@ -1,4 +1,4 @@
-
+import hero from "../../assets/Hero.png";
 export const Hero = ({ onCardClick, title, description, image }) => {
     const Hero = [
       {
@@ -117,7 +117,7 @@ export const Hero = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={hero}
               alt={title}
               className="Object-cover w-full h-full"
             />

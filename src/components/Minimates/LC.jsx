@@ -1,4 +1,4 @@
-
+import lc from '../../assets/LC.png'
 
 export const LogoCloud = ({ onCardClick, title, description, image }) => {
     const LogoCloud = [
@@ -143,7 +143,7 @@ export const LogoCloud = ({ onCardClick, title, description, image }) => {
         >
           <div className="absolute inset-0">
             <img
-              src={image}
+              src={lc}
               alt={title}
               className="Object-cover w-full h-full"
             />
