@@ -88,24 +88,7 @@ export const Button = ({ onCardClick, title, description, image }) => {
 </button>
       `
     },
-    {
-      id: "",
-      title: "",
-      content: `
-<div class="flex justify-center">
-  <button
-    class="cursor-pointer border border-black w-16 h-12 text-white bg-cover flex justify-center items-center font-bold bg-gradient-to-tr from-blue-600 via-blue-400 to-white transition-all duration-500 ease-in-out hover:w-20 hover:h-14  rounded-lg hover:shadow-black hover:shadow-inner hover:shadow-3xl hover:px-10">
-    <span>Hover</span>
-  </button>
-</div>
-      `,
-      code: `
-<button
-  class="E-cursor-pointer E-border E-border-black E-w-16 E-h-12 E-text-white E-bg-cover E-flex E-justify-center E-items-center E-font-bold E-bg-gradient-to-tr E-from-blue-600 E-via-blue-400 E-to-white E-transition-all E-duration-500 E-ease-in-out hover:w-20 hover:h-14 E-rounded-lg hover:shadow-black hover:shadow-inner hover:shadow-3xl hover:px-10">
-  <span>Hover</span>
-</button>
-      `
-    }
+    
   ];
 
   return (
