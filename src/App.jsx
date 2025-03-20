@@ -5,6 +5,7 @@ import { ComponentSection } from './components/ComponentSection.jsx'
 import { FTR } from './components/FTR.jsx'
 
 import logo from './assets/logo1.png'
+import ui from './assets/ui.png'
 
 const CardDetail = ({ item, onBack }) => {
   const [activeViews, setActiveViews] = useState({})
@@ -131,7 +132,7 @@ export default function App() {
                 <span className="text-black font-medium text-sm md:text-xl">Elementus</span>
               </div>
               <img 
-                src="./src/assets/ui.png"
+                src={ui}
                 alt="UI svg"
                 className="w-6 h-auto"
               />
