@@ -5,13 +5,10 @@ export const FTR = () => {
 <footer class=" bg-white/10 backdrop-blur-md border-b border-white/20 z-50">
     <div class="container px-6 py-8 mx-auto">
         <div class="flex flex-col items-center text-center">
-            <a href="#">
+            <a href="https://elementus.netlify.app/">
                 <img class="w-8 h-10 md:w-12 md:h-16" src={logo} alt="Elementus Logo" />
             </a>
-            <div class="flex flex-wrap justify-center mt-6 -mx-4">
-                <a href="https://elementus.netlify.app/Docs" class="mx-4 text-lg transition-colors duration-300 text-gray-300 hover:text-black" aria-label="Reddit"> Docs </a>
-                <a href="https://elementus.netlify.app/Blog" class="mx-4 text-lg transition-colors duration-300 text-gray-300 hover:text-black" aria-label="Reddit"> Blog </a>                
-            </div>
+            
         </div>
         <hr class="my-5 border-gray-200 md:my-8" />
         <div class="flex flex-col items-center sm:flex-row sm:justify-between">
